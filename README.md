@@ -14,9 +14,17 @@ Channel Aparat: Https://aparat.com/HTHTM
 
 # How to use
 To use this script, make sure have python package installed on your device. You can use this script on your PC, VPS, or your android smart phone(using Termux). This script uses requests package, so you have to install it first:
-` pkg install python '
+
+$ pkg insrall python
+
+
 # Use Using
 
+* pkg install python
+* pkg install git
+* git clone 
+* cd WarpPlus
+* python WarpPlusHTHTM.py
 
 
 
