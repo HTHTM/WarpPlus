@@ -15,7 +15,7 @@ Channel Aparat: Https://aparat.com/HTHTM
 # How to use
 To use this script, make sure have python package installed on your device. You can use this script on your PC, VPS, or your android smart phone(using Termux). This script uses requests package, so you have to install it first:
 
-$ pkg insrall python
+$ pkg install python
 
 
 # Use Using
@@ -27,5 +27,11 @@ $ pkg insrall python
 * python WarpPlusHTHTM.py
 
 
+Now you need to send your user ID.
+
+You can find your user-id in the 1.1.1.1 App settings in the Diagnostics menu. If there wasn't user-id, first enable WARP mode and then try again.
+
+
+Tanks For Using this script!
 
 
