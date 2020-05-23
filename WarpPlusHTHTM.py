@@ -1,4 +1,4 @@
-import json, datetime, random, string, time, os, sys
+import requests, json, datetime, random, string, time, os, sys
 
 print("||   ||  ========  ||   ||  ========   /^\\    /^\\")
 print("||===||     ||     ||===||     ||     //=\\\\  //=\\\\")
@@ -45,8 +45,8 @@ def run():
          'Connection':'Keep-Alive', 
          'Accept-Encoding':'gzip', 
          'User-Agent':'okhttp/3.12.1'}
-        # r = requests.post(url, data=bodyString, headers=headers)
-        return "s "
+        r = requests.post(url, data=bodyString, headers=headers)
+        return r
     except Exception as error:
         print(error)
 
