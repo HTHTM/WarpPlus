@@ -22,7 +22,7 @@ $ pkg install python3
 
 * pkg install python
 * pkg install git
-* git clone 
+* git clone https://github.com/HTHTM/WarpPlus
 * cd WarpPlus
 * python3 WarpPlusHTHTM.py
 
